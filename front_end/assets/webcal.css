@@ -1,0 +1,162 @@
+/*
+	This section deals with the generic css regarding any web calendar table or colored cell or any other
+	element that pertains directly to the webcal app.
+ */
+.webcal {
+  width: 900px;
+  height: 330px;
+  border: solid 3px #dddddd; }
+
+.webcal-container {
+  text-align: center; }
+  .webcal-container :hover {
+    color: #b66aff; }
+  .webcal-container div-1 {
+    float: left; }
+  .webcal-container div-2 {
+    display: inline-block; }
+  .webcal-container div-3 {
+    float: right; }
+  .webcal-container div-4 {
+    float: left; }
+
+.webcal-menu-bar {
+  text-align: left;
+  width: inherit;
+  font-size: 12px;
+  background-color: lightgrey; }
+
+.webcal-body-container {
+  overflow-y: scroll;
+  height: 300px; }
+
+.dynamic-container {
+  overflow-y: scroll;
+  height: 377px; }
+
+.webcal-table-generic {
+  border: solid 1px #dddddd;
+  border-spacing: 1;
+  border-collapse: collapse; }
+  .webcal-table-generic thead {
+    border-bottom: solid 2px #dddddd; }
+  .webcal-table-generic th {
+    border-right: solid 1px #dddddd;
+    width: 150px; }
+  .webcal-table-generic td {
+    border: solid 1px #dddddd;
+    width: 150px;
+    height: 50px;
+    padding: 2px; }
+
+.webcal-table {
+  border: solid 1px #dddddd;
+  border-spacing: 1;
+  border-collapse: collapse; }
+  .webcal-table thead {
+    border-bottom: solid 2px #dddddd; }
+  .webcal-table th {
+    border-right: solid 1px #dddddd;
+    width: 150px; }
+  .webcal-table th:hover {
+    background-color: darkorange; }
+  .webcal-table td {
+    border: solid 1px #dddddd;
+    width: 150px;
+    height: 50px;
+    padding: 2px; }
+
+.webcal-table-day {
+  border: solid 1px #dddddd;
+  border-spacing: 1;
+  border-collapse: collapse; }
+  .webcal-table-day td {
+    border: solid 1px #dddddd;
+    width: 100px;
+    height: 50px;
+    padding: 2px; }
+  .webcal-table-day thead {
+    border-bottom: solid 2px #dddddd; }
+  .webcal-table-day th {
+    border-right: solid 1px #dddddd;
+    width: 100px; }
+
+.webcal-colored {
+  font-size: 12px;
+  text-align: left;
+  background-color: #b66aff; }
+
+.webcal-button {
+  background-color: #2ba6cb;
+  border: 2px solid #2ba6cb;
+  color: #ffffff;
+  border-radius: 25px; }
+
+.webcal-button:hover {
+  background-color: #ffffff;
+  color: #2ba6cb; }
+
+.webcal-alertField {
+  font-size: 10px;
+  width: 1200px;
+  text-align: right; }
+
+/*
+	This section deals css to enhance the UI or add functionality as necessary but is not specific unto
+	the webcal app.
+ */
+.data-container {
+  height: 50px;
+  overflow-y: scroll; }
+
+.cur-day {
+  background-color: #bdbdbd; }
+
+.highlight:hover {
+  color: #ffffff; }
+
+a.balloon {
+  outline: none;
+  text-decoration: none;
+  color: #000000; }
+  a.balloon div {
+    z-index: 10;
+    display: none;
+    padding: 5px 5px;
+    margin-top: -30px;
+    margin-left: 10px;
+    min-width: 275px;
+    line-height: 16px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    font-size: .8em; }
+    a.balloon div :hover {
+      display: inline;
+      position: absolute;
+      color: #000000;
+      border: 1px solid #530c79;
+      background: #e6d6ff; }
+
+.circle {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff; }
+
+.circle-selected {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 10px;
+  height: 10px;
+  background-color: darkorange; }
+
+.selected {
+  background-color: darkorange;
+  padding: 5px; }

@@ -13,12 +13,11 @@
  * File displays the web calendar app. Returns true if all data passed in is successful otherwise false to indicate
  * an error.
  */
- 
+
  //echo("<h1>Hello World</h1>"); exit;
 
-$frontend = $root_path.'front_end/';
+$frontend = '../';
 $backend  = $root_path.'php_backend/controller/';
-
 ?>
 
 <!DOCTYPE html>
@@ -351,4 +350,3 @@ $backend  = $root_path.'php_backend/controller/';
 
 </body>
 </html>
-

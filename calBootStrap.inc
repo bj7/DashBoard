@@ -14,3 +14,6 @@ if (ini_get ( 'register_globals' )) {
             unset ( $GLOBALS [$key] );
     }
 }
+
+$root_path = './';
+$main_view = $root_path."front_end/view/main_view.php";

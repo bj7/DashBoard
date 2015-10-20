@@ -233,7 +233,7 @@ app.directive('markTime', function () {
     return {
         restrict: 'A',
         link: linkFn
-    }
+    };
 });
 
 // add the event and highlights the hours in a day detail view
@@ -266,7 +266,7 @@ app.directive('dayDetails', function () {
     return {
         restrict:'A',
         link: linkFn
-    }
+    };
 });
 
 app.directive('schedDetails', function($compile){

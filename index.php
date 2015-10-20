@@ -10,20 +10,14 @@ ini_set('display_errors', '1');
  * practice generic file for include
  */
 include ('./calBootStrap.inc');
-
-$root_path = './';
-$main_view = $root_path."front_end/view/main_view.php";
 ?>
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-<?
-    require_once($main_view);
-?>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <iframe src="<?echo $main_view; ?>" width="100%" height="100%"></iframe>
+    </body>
 </html>
